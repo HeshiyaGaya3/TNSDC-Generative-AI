@@ -1,4 +1,3 @@
-[Note that results with PyTorch implementation may vary slightly from the paper.]
 ## How to use the PyTorch code?
 * Download the iSEG-2017 data and place it in data folder. (Visit [this](http://iseg2017.web.unc.edu/download/) link to download the data. You need to register for the challenge.)
 * Do the preprocessing as mentioned in the tensorflow readme. (optional)
@@ -27,4 +26,4 @@ $ python main.py configs/fmgan.json
 * To run testing, configure the phase as "testing" in json file and run the command mentioned in Step 2.
 * This version of code only compute dice coefficient to evaluate the testing performance.
 
-This PyTorch code is built over the template from this [repo](https://github.com/moemen95/Pytorch-Project-Template), for more details about the structure, kindly refer to it.
+
